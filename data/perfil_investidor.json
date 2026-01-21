@@ -1,36 +1,68 @@
-{
-  "nome": "João Silva",
-  "idade": 32,
-  "profissao": "Analista de Sistemas",
-  "renda_mensal": 5000.00,
-  "perfil_investidor": "moderado",
-  "objetivo_principal": "Construir reserva de emergência",
-  "patrimonio_total": 15000.00,
-  "reserva_emergencia_atual": 10000.00,
-  "aceita_risco": false,
-  "preferencias_seguranca": {
-    "alertas": ["transações internacionais", "saques noturnos", "compras acima de 3000"],
-    "canal_preferido": "app",
-    "seguro_antifraude": true
+[
+  {
+    "nome": "Tesouro Selic",
+    "categoria": "renda_fixa",
+    "risco": "baixo",
+    "rentabilidade": "100% da Selic",
+    "aporte_minimo": 30.00,
+    "indicado_para": "Reserva de emergência e iniciantes"
   },
-  "historico_fraudes": [
-    {
-      "data": "2025-08-10",
-      "tipo": "cartão clonado",
-      "resolvido": true
-    }
-  ],
-  "metas": [
-    {
-      "meta": "Completar reserva de emergência",
-      "valor_necessario": 15000.00,
-      "prazo": "2026-06"
-    },
-    {
-      "meta": "Entrada do apartamento",
-      "valor_necessario": 50000.00,
-      "prazo": "2027-12"
-    }
-  ]
-}
+  {
+    "nome": "CDB Liquidez Diária",
+    "categoria": "renda_fixa",
+    "risco": "baixo",
+    "rentabilidade": "102% do CDI",
+    "aporte_minimo": 100.00,
+    "indicado_para": "Quem busca segurança com rendimento diário"
+  },
+  {
+    "nome": "LCI/LCA",
+    "categoria": "renda_fixa",
+    "risco": "baixo",
+    "rentabilidade": "95% do CDI",
+    "aporte_minimo": 1000.00,
+    "indicado_para": "Quem pode esperar 90 dias (isento de IR)"
+  },
+  {
+    "nome": "Fundo Multimercado",
+    "categoria": "fundo",
+    "risco": "medio",
+    "rentabilidade": "CDI + 2%",
+    "aporte_minimo": 500.00,
+    "indicado_para": "Perfil moderado que busca diversificação"
+  },
+  {
+    "nome": "Fundo de Ações",
+    "categoria": "fundo",
+    "risco": "alto",
+    "rentabilidade": "Variável",
+    "aporte_minimo": 100.00,
+    "indicado_para": "Perfil arrojado com foco no longo prazo"
+  },
+  {
+    "nome": "Seguro Antifraude",
+    "categoria": "seguro",
+    "risco": "baixo",
+    "rentabilidade": "Proteção financeira",
+    "aporte_minimo": 50.00,
+    "indicado_para": "Clientes que desejam cobertura contra transações não autorizadas"
+  },
+  {
+    "nome": "Monitoramento de Transações",
+    "categoria": "servico",
+    "risco": "baixo",
+    "rentabilidade": "Não aplicável",
+    "aporte_minimo": 0.00,
+    "indicado_para": "Clientes que querem alertas em tempo real de movimentações suspeitas"
+  },
+  {
+    "nome": "Plano de Segurança Digital",
+    "categoria": "servico",
+    "risco": "baixo",
+    "rentabilidade": "Não aplicável",
+    "aporte_minimo": 20.00,
+    "indicado_para": "Clientes que desejam proteção contra phishing e golpes online"
+  }
+]
+
 
