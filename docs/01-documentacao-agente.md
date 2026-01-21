@@ -76,7 +76,7 @@ flowchart TD
 
 - [ ] O Agente só responde com base nos dados fornecidos [CSV/JSOM]
 - [ ] As respostas incluem informações sempre que possível
-- [ ] O agente não recomendações de investimentos sem perfil do cliente
+- [ ] O agente não faz recomendações de investimentos sem perfil do cliente
 - [ ] Implementa checagem de alucinação: respostas passam por validação antes de serem mandadas para o cliente
 - [ ] Monitoramente de interações para prevenir suspeitas e fraudes
 
