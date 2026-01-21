@@ -1,11 +1,17 @@
-data,descricao,categoria,valor,tipo
-2025-10-01,Salário,receita,5000.00,entrada
-2025-10-02,Aluguel,moradia,1200.00,saida
-2025-10-03,Supermercado,alimentacao,450.00,saida
-2025-10-05,Netflix,lazer,55.90,saida
-2025-10-07,Farmácia,saude,89.00,saida
-2025-10-10,Restaurante,alimentacao,120.00,saida
-2025-10-12,Uber,transporte,45.00,saida
-2025-10-15,Conta de Luz,moradia,180.00,saida
-2025-10-20,Academia,saude,99.00,saida
-2025-10-25,Combustível,transporte,250.00,saida
+data,descricao,categoria,valor,tipo,localizacao,meio_pagamento,dispositivo,status,risco
+2025-10-01,Salário,receita,5000.00,entrada,São Paulo,transferencia,desktop,aprovado,baixo
+2025-10-02,Aluguel,moradia,1200.00,saida,São Paulo,debito,desktop,aprovado,baixo
+2025-10-03,Supermercado,alimentacao,450.00,saida,São Paulo,cartao,celular,aprovado,baixo
+2025-10-05,Netflix,lazer,55.90,saida,São Paulo,cartao,celular,aprovado,baixo
+2025-10-07,Farmácia,saude,89.00,saida,São Paulo,cartao,celular,aprovado,baixo
+2025-10-10,Restaurante,alimentacao,120.00,saida,São Paulo,cartao,celular,aprovado,baixo
+2025-10-12,Uber,transporte,45.00,saida,São Paulo,cartao,celular,aprovado,baixo
+2025-10-15,Conta de Luz,moradia,180.00,saida,São Paulo,debito,desktop,aprovado,baixo
+2025-10-20,Academia,saude,99.00,saida,São Paulo,cartao,celular,aprovado,baixo
+2025-10-25,Combustível,transporte,250.00,saida,São Paulo,cartao,celular,aprovado,baixo
+2025-10-26,Compra Eletrônicos,tecnologia,5000.00,saida,Miami,cartao,celular,aprovado,alto
+2025-10-27,Transferência Internacional,financeiro,10000.00,saida,Londres,transferencia,desktop,aprovado,alto
+2025-10-28,Saque Noturno,financeiro,2000.00,saida,São Paulo,cartao,caixa_eletronico,aprovado,medio
+2025-10-29,Compra Online,tecnologia,3500.00,saida,São Paulo,cartao,celular,recusado,alto
+
+
