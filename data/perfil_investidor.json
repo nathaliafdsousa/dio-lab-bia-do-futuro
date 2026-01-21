@@ -8,6 +8,18 @@
   "patrimonio_total": 15000.00,
   "reserva_emergencia_atual": 10000.00,
   "aceita_risco": false,
+  "preferencias_seguranca": {
+    "alertas": ["transações internacionais", "saques noturnos", "compras acima de 3000"],
+    "canal_preferido": "app",
+    "seguro_antifraude": true
+  },
+  "historico_fraudes": [
+    {
+      "data": "2025-08-10",
+      "tipo": "cartão clonado",
+      "resolvido": true
+    }
+  ],
   "metas": [
     {
       "meta": "Completar reserva de emergência",
@@ -21,3 +33,4 @@
     }
   ]
 }
+
