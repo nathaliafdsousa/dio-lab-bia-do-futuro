@@ -4,3 +4,10 @@ data,canal,tema,resumo,resolvido
 2025-10-01,chat,Tesouro Selic,Cliente pediu explicação sobre o funcionamento do Tesouro Direto,sim
 2025-10-12,chat,Metas financeiras,Cliente acompanhou o progresso da reserva de emergência,sim
 2025-10-25,email,Atualização cadastral,Cliente atualizou e-mail e telefone,sim
+2025-10-28,telefone,Fraude cartão,Cliente relatou compras não reconhecidas em outro estado,sim
+2025-11-02,email,Phishing,Cliente recebeu e-mail suspeito pedindo dados bancários,não
+2025-11-05,chat,Transação internacional,Cliente questionou transferência não autorizada para o exterior,sim
+2025-11-10,telefone,Saque noturno,Cliente relatou saque em caixa eletrônico fora do padrão,não
+2025-11-15,chat,Alerta de segurança,Cliente pediu informações sobre seguro antifraude disponível,sim
+
+
