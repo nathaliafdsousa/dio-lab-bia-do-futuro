@@ -1,0 +1,26 @@
+[
+  {
+    "id_dispositivo": 1,
+    "tipo": "celular",
+    "sistema_operacional": "Android",
+    "localizacao_registrada": "São Paulo",
+    "ultimo_acesso": "2025-10-20 14:35",
+    "status": "ativo"
+  },
+  {
+    "id_dispositivo": 2,
+    "tipo": "desktop",
+    "sistema_operacional": "Windows",
+    "localizacao_registrada": "São Paulo",
+    "ultimo_acesso": "2025-10-18 09:10",
+    "status": "ativo"
+  },
+  {
+    "id_dispositivo": 3,
+    "tipo": "celular",
+    "sistema_operacional": "iOS",
+    "localizacao_registrada": "Miami",
+    "ultimo_acesso": "2025-10-26 23:50",
+    "status": "suspeito"
+  }
+]
