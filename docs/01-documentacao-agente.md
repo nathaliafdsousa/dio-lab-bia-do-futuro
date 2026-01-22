@@ -64,7 +64,7 @@ flowchart TD
 | Componente | Descrição |
 |------------|-----------|
 | Interface | Chatbot em Streamlit |
-| LLM | Meta Llama 3.1 8b |
+| LLM | Mistral 8b |
 | Base de Conhecimento | JSON/CSV com dados do cliente |
 | Validação | Checagem de alucinações |
 
