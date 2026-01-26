@@ -50,12 +50,10 @@ flowchart TD
     A[Cliente] -->|Mensagem| B[Interface]
     B --> C[LLM]
     C --> D[Base de Conhecimento]
-    D --> C
-    C --> E[Validação]
+    D --> E[Validação]
     E --> G[Monitoramento]
     G --> F[Resposta]
-    F --> H[Feedback do Usuário]
-    H --> C
+
 
 ```
 
@@ -64,7 +62,7 @@ flowchart TD
 | Componente | Descrição |
 |------------|-----------|
 | Interface | Chatbot em Streamlit |
-| LLM | Mistral 8b |
+| LLM | OLLAMA |
 | Base de Conhecimento | JSON/CSV com dados do cliente |
 | Validação | Checagem de alucinações |
 
