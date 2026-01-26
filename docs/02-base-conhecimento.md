@@ -86,35 +86,16 @@ Durante o desenvolvimento do agente, os dados mockados foram modificados e expan
 
 📂 Exemplo de código em Python
 ```
-python
+import json 
 import pandas as pd
-import json
 
-# --- Carregando arquivos CSV ---
-transacoes = pd.read_csv("data/transacoes.csv")
-historico = pd.read_csv("data/historico_atendimento.csv")
+perfil = json.load(open('./data/perfil_investidor.json'))
+transacoes = pd.read_csv('./data/transacoes.csv')
+historico = pd.read_csv('./data/historico_atendimento.csv')
+produtos = json.load(open('./data/produtos_financeiros.json'))
+dispositivo = json.load(open('./data/dispositivo_cliente.json'))
 
-# --- Carregando arquivos JSON ---
-with open("data/perfil_investidor.json", "r", encoding="utf-8") as f:
-    perfil_investidor = json.load(f)
 
-with open("data/produtos_financeiros.json", "r", encoding="utf-8") as f:
-    produtos_financeiros = json.load(f)
-
-with open("data/dispositivos_cliente.json", "r", encoding="utf-8") as f:
-    dispositivos_cliente = json.load(f)
-
-# --- Exemplo de uso ---
-print("Transações suspeitas:")
-print(transacoes[transacoes["risco"] == "alto"])
-
-print("\nPerfil do investidor:")
-print(perfil_investidor["nome"], "-", perfil_investidor["perfil_investidor"])
-
-print("\nProdutos de segurança disponíveis:")
-for p in produtos_financeiros:
-    if p["categoria"] in ["seguro", "servico"]:
-        print("-", p["nome"])
 ````
 ⚖️ Estratégia de integração
 - O agente não consulta fontes externas: todas as respostas vêm dos arquivos mockados.
